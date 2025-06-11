@@ -10,7 +10,7 @@ const Header = () => {
         <p>From the sizzling tandoor of North India
              to the aromatic spice blends of the South, food is more than just nourishment—it’s a celebration of tradition, creativity, and shared moments.
         </p>
-        <button>Explore Recipes</button>
+        <a href="#explore"><button>Explore Recipes</button></a>
       </div>
         <div className="header-image">
             <img src={Logo} alt="Delicious food" />
