@@ -1,0 +1,16 @@
+.unkhane-section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #d35400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#description {
+    text-align: center;
+    font-size: 18px;
+    color: #ee9357;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
