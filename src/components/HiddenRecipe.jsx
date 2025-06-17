@@ -5,7 +5,7 @@ import './HiddenRecipe.css'
 const recipes = [
     {
         image: './src/assets/Bhaat_ki_daal.webp',
-        title: 'Bhaat ki Daal',
+        title: 'Bhatt ki churkani',
         region: 'Himachal Pradesh',
         description: 'A rich, iron-packed curry made with black soybeans native to the hills.'
   },
@@ -19,13 +19,13 @@ const recipes = [
     image: './src/assets/Khali_Gajjar_Hwala.jpg',
     title: 'Kali Gajjar',
     region: 'Punjab',
-    description: 'A winter special using black/purple carrots, mildly sweet and spiced.'
+    description: 'A winter special recipe using black/purple carrots.'
   },
   {
     image: './src/assets/Gujarati_Fajeto.jpg',
     title: 'Gujarati Fajeto',
     region: 'Gujarat',
-    description: 'A spiced mango-based kadhi made during summers in traditional households.'
+    description: 'A spiced mango-based kadhi made during summers.'
   }
 ];
 const HiddenRecipe = () => {
