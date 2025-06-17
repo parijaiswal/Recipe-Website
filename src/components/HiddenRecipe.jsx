@@ -17,8 +17,8 @@ const recipes = [
   },
   {
     image: './src/assets/Khali_Gajjar_Hwala.jpg',
-    title: 'Kali Gajjar',
-    region: 'Punjab',
+    title: 'Kali Gajjar Halwa',
+    region: 'UP[Lucknow]',
     description: 'A winter special recipe using black/purple carrots.'
   },
   {

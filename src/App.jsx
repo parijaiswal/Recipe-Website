@@ -4,6 +4,7 @@ import Header from './components/Header'
 import ExploreSection from './components/ExploreSection'
 import HiddenRecipe from './components/HiddenRecipe'
 import OurPurpose from './components/OurPurpose'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
       <ExploreSection />
       <HiddenRecipe />
       <OurPurpose />
+      <Footer />
     </div>
   )
 }
