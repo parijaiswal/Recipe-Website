@@ -1,5 +1,6 @@
 import React from 'react'
-import './ExploreSection.css' // Assuming you have a CSS file for styling
+import './ExploreSection.css' 
+import { Link } from 'react-router-dom';
 const ExploreSection = () => {
   return (
     <section id="explore" className="explore-section">
@@ -8,7 +9,9 @@ const ExploreSection = () => {
         <div className="card">
           <img src="./src/assets/south_indian_image.jpg" alt="" />
           <h3>South Indian</h3>
-          <button>View Recipes</button>
+          <Link to="/south-indian">
+            <button>View Recipes</button>
+          </Link>
         </div>
 
 

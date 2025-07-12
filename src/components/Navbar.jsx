@@ -7,10 +7,10 @@ const Navbar = () => {
           MyRecipes 
         </div>
         <ul className="navbar-links">
-            <li>Home</li>
-            <li>Recipes</li>
-            <li>Categories</li>
-            <li>Reviews</li>
+           <li> <a href="/">Home</a></li>
+            <li> <a href="">Recipes</a></li>
+            <li> <a href="">Categories</a></li>
+            <li> <a href="">Reviews</a></li>
         </ul>
 
         <div className="navbar-auth">

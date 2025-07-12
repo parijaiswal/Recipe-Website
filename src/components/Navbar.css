@@ -66,3 +66,14 @@
   background-color: #d35400;
   transform: translateY(-2px);
 }
+.navbar-links li a {
+  text-decoration: none;           
+  color: #333;
+  font-weight: 500;
+  border-bottom: 2px solid transparent; 
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #e26b0a;
+}
