@@ -55,23 +55,23 @@ const SouthIndianRecipes = () => {
         </section>
 
         {/* Section 3 - Dadi/ Nani ki Recipes */}
-       <section className="grandma-section">
-  <div className="grandma-content">
+    <section className="grandma-section">
     <div className="grandma-image">
-      <img src="./src/assets/south_indian_lady.jpg" alt="Dadi cooking" />
+      <img src="./src/assets/southlady2.jpg" alt="Dadi cooking" />
     </div>
     <div className="grandma-text">
-      <h2>Dadi/Nani ki Recipes</h2>
+      <h2>Amma aur Dadi ke Haath Ka Swaad: Purani Yaadon Ka Tohfa</h2>
       <p>
-        Relive the traditional flavors passed down through generations.
-        Discover recipes filled with warmth, memories, and timeless taste.
+        Explore the traditional recipes of south Indian, which might have been forgetten by the new generation in this fast-paced world.
+        This section is dedicated to all the amma, dadi aur nani who have been the backbone of our kitchens and homes.
+        Just remember, <span>Agli baar jab aap apni dadi, nani ya amma se poochhen unke bachpan ke khaas pakwan ke baare mein, toh ho sakta hai aapko bhoola hua zaika dobara mil jaaye.</span>
       </p>
       <button>View Recipes</button>
     </div>
-  </div>
 </section>
 
-      </div>
+
+</div>
 
       <Footer />
     </>

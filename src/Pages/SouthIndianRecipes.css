@@ -52,39 +52,36 @@
   align-items: center;
   justify-content: space-between;
   padding: 60px 80px;
-  background-color: #fff5ec;
   gap: 4rem;
   font-family: 'Poppins', sans-serif;
   flex-wrap: nowrap;
+  background-color: #f4d1ae;
 }
 
 .grandma-text {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex: 1 1 300px;
   max-width: 600px;
+  text-align: left;
 }
 
 .grandma-text h2 {
   font-size: 36px;
-  color: #d35400;
+  color: #A94438;
   margin-bottom: 16px;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .grandma-text p {
-  font-size: 16px;
-  color: #444;
-  line-height: 1.6;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.8;
   margin-bottom: 20px;
 }
 
 .grandma-text button {
   padding: 12px 24px;
-  background-color: #e67e22;
+  background-color: #E67E22;
   border: none;
   border-radius: 6px;
   color: white;
@@ -104,6 +101,13 @@
   max-width: 600px;
 }
 
+.grandma-text p span {
+  color : #d35400;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 .grandma-image img {
   width: 100%;
   max-width: 500px;
@@ -113,4 +117,5 @@
   border-radius: 16px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  border: white 6px solid;
 }
